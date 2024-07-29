@@ -9,6 +9,7 @@ public class BuiltInFunctions {
          * @param message (String)
          */
         String message = "Hello, World!";
+        System.out.println(message);
         // Write your code here
 
 
@@ -18,7 +19,10 @@ public class BuiltInFunctions {
          * Find a built-in function that returns the length of a string.
          * @return length (int)
          */
+
         String example = "Java";
+        int length = example.length();
+        System.out.println(length);
         // Write your code here
 
 
@@ -29,6 +33,8 @@ public class BuiltInFunctions {
          * @return lowerCase (String)
          */
         String upperCase = "JAVA";
+        String lowerCase = upperCase.toLowerCase();
+        System.out.println(lowerCase);
         // Write your code here
 
 
@@ -40,6 +46,8 @@ public class BuiltInFunctions {
          * @return startsWithPrefix (boolean)
          */
         String programming = "Java programming";
+        boolean doesStartWithPrefix = programming.startsWith("Java");
+        System.out.println(doesStartWithPrefix);
         // Write your code here
 
 
@@ -53,6 +61,8 @@ public class BuiltInFunctions {
          * @return replacedString (String)
          */
         String original = "Java is fun!";
+        String updatedString = original.replace('a', 'o');
+        System.out.println(updatedString);
         // Write your code here
 
         
@@ -65,6 +75,8 @@ public class BuiltInFunctions {
          */
         
         double number = 9;
+        double square = Math.sqrt(number);
+        System.out.println(square);
         // Write your code here
 
 
@@ -78,6 +90,7 @@ public class BuiltInFunctions {
          */
         double base = 2;
         double exponent = 3;
+        System.out.println(Math.pow(base, exponent));
         // Write your code here
 
 
@@ -87,6 +100,8 @@ public class BuiltInFunctions {
          * Find a built-in function that generates a random number between 0.0 (inclusive) and 1.0 (exclusive).
          * @return randomNumber (double)
          */
+        double randomDecimal = Math.random();
+        System.out.println(randomDecimal);
         // Write your code here
 
 
@@ -101,6 +116,8 @@ public class BuiltInFunctions {
          */
         int number1 = 5;
         int number2 = 10;
+        int largerNumber = Math.max(number1, number2);
+        System.out.println(largerNumber);
         // Write your code here
 
 
